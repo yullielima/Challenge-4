@@ -1,12 +1,18 @@
-import logo from "./logo.svg";
-import "./App.css";
+import React from "react";
+import { Section1 } from "./Section1/Section1"
+import { Section2 } from "./Section2/Section2"
+import './reset.css'
+
+
 
 function App() {
   return (
-    <div>
-      <h2> Challenge 4 sux</h2>
-    </div>
-  );
+    <>
+    <Section1 />
+    <Section2 />
+    
+    </>
+    )
 }
 
 export default App;
