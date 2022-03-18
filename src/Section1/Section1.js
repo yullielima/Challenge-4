@@ -6,9 +6,7 @@ export const Section1 = () => {
       <Title>
         Learning <HiddenOnMobile>how</HiddenOnMobile> to code
       </Title>
-      <Image />
+      <Image aria-hidden='true' />
     </Container>
   );
 };
-
-export default Section1;

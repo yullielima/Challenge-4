@@ -8,12 +8,10 @@ export const Container = styled.section`
   background: #ffd66c;
 
   @media (max-width: 768px) {
-    width: 100%;
     height: 603px;
   }
 
   @media (max-width: 376px) {
-    width: 100%;
     height: 439px;
   }
 `;
@@ -22,11 +20,8 @@ export const Title = styled.h1`
   width: 515px;
   height: 167px;
 
-  padding-bottom: 302px;
-  padding-left: 44px;
-  padding-top: 128px;
+  padding: 128px 0 302px 44px;
 
-  font-style: normal;
   font-weight: bold;
   font-size: 74px;
   line-height: 87px;

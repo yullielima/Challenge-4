@@ -4,18 +4,15 @@ import { ReactComponent as CSS3 } from "../assets/CSS3.svg";
 import { ReactComponent as JS } from "../assets/JavaScript.svg";
 
 export const Container2 = styled.section`
-width:100%;
-height: 427px;
+  width: 100%;
+  height: 427px;
 
-@media(max-width: 768px;) {
-  width:100%
-  height: 517px;
-}
-@media(max-width: 376px;){
-  width:100%;
-  hight:624px;
-}
-
+  @media (max-width: 768px;) {
+    height: 517px;
+  }
+  @media (max-width: 376px;) {
+    hight: 624px;
+  }
 `;
 
 export const SubTitle = styled.h2`
