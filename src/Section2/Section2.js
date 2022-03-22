@@ -1,27 +1,31 @@
-import { Container2, SubTitle, Block0, Block1, Html5Icon, CSS3Icon, JSIcon } from './style2';
-
+import {
+  Container2,
+  SubTitle,
+  SkillContainer,
+  SkillBox,
+  Html5Icon,
+  CSS3Icon,
+  JSIcon,
+} from "./style2";
 
 export const Section2 = () => {
-    return(
-        <Container2>
-         <SubTitle>My Skills</SubTitle>
-         
-         <Block0>
-         
-            <Block1>
-                <Html5Icon />
-            </Block1>
+  return (
+    <Container2>
+      <SubTitle>My Skills</SubTitle>
 
-            <Block1>
-                <CSS3Icon />
-            </Block1>
+      <SkillContainer>
+        <SkillBox>
+          <Html5Icon aria-hidden='true' />
+        </SkillBox>
 
-            <Block1>
-                <JSIcon />
-            </Block1>
-         
-         </Block0>
-           
-        </Container2>
-    )
-}
+        <SkillBox>
+          <CSS3Icon aria-hidden='true' />
+        </SkillBox>
+
+        <SkillBox>
+          <JSIcon aria-hidden='true' />
+        </SkillBox>
+      </SkillContainer>
+    </Container2>
+  );
+};

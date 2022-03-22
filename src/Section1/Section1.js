@@ -1,15 +1,14 @@
-import { Container, Title, Image } from './style';
-
-
+import { Container, Title, Image, HiddenOnMobile } from "./style";
 
 export const Section1 = () => {
-    return(
-        <Container>
-            <Title>Learning how to code</Title>
-            <Image />
-            
-        </Container>
-    )
-}
-
-export default Section1;
+  return (
+    <Container>
+      <div>
+        <Title>
+          Learning <HiddenOnMobile>how</HiddenOnMobile> to code
+        </Title>
+        <Image aria-hidden='true' />
+      </div>
+    </Container>
+  );
+};
