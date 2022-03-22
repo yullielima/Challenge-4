@@ -15,15 +15,15 @@ export const Section2 = () => {
 
       <SkillContainer>
         <SkillBox>
-          <Html5Icon />
+          <Html5Icon aria-hidden='true' />
         </SkillBox>
 
         <SkillBox>
-          <CSS3Icon />
+          <CSS3Icon aria-hidden='true' />
         </SkillBox>
 
         <SkillBox>
-          <JSIcon />
+          <JSIcon aria-hidden='true' />
         </SkillBox>
       </SkillContainer>
     </Container2>

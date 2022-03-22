@@ -55,11 +55,6 @@ export const SkillBox = styled.div`
   box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
 
-  // & > svg {
-  //   width: 65.24px;
-  //   height: 92px;
-  //   margin: 31px 61px 0 62px;
-
   @media (max-width: 768px) {
     width: 191.27px;
     height: 137px;
@@ -87,4 +82,8 @@ export const JSIcon = styled(JS)`
   width: 92px;
   height: 92px;
   margin: auto;
+`;
+
+export const HiddenOnMobile = styled.span`
+  display: none;
 `;
