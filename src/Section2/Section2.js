@@ -1,8 +1,8 @@
 import {
   Container2,
   SubTitle,
-  Block0,
-  Block1,
+  SkillContainer,
+  SkillBox,
   Html5Icon,
   CSS3Icon,
   JSIcon,
@@ -13,19 +13,19 @@ export const Section2 = () => {
     <Container2>
       <SubTitle>My Skills</SubTitle>
 
-      <Block0>
-        <Block1>
+      <SkillContainer>
+        <SkillBox>
           <Html5Icon />
-        </Block1>
+        </SkillBox>
 
-        <Block1>
+        <SkillBox>
           <CSS3Icon />
-        </Block1>
+        </SkillBox>
 
-        <Block1>
+        <SkillBox>
           <JSIcon />
-        </Block1>
-      </Block0>
+        </SkillBox>
+      </SkillContainer>
     </Container2>
   );
 };
